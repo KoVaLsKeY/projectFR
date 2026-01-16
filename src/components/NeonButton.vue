@@ -25,6 +25,7 @@ export default {
 .neon-btn:hover {
   background: #d900ff;
   color: white;
+  transition: background-color 0.8s;
   box-shadow: 0 0 20px #d900ff;
 }
 </style>

@@ -65,8 +65,33 @@ export default {
 </script>
 
 <style scoped>
-.page { max-width: 800px; margin: 0 auto; padding: 20px; }
-.add-review { margin-top: 40px; background: #111; padding: 25px; border-radius: 15px; border: 1px solid #333; }
-input, textarea { width: 100%; padding: 12px; margin-bottom: 15px; background: #222; color: white; border: 1px solid #444; border-radius: 5px; }
+.page { max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-review { margin-top: 40px;
+  background: #111;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: #222;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+textarea {
+  height: 120px;       /* Pevná výška (Fixed height) */
+  resize: none;        /* Zakázať zmenu veľkosti (Disable resizing) */
+}
+
 h3 { color: white; margin-bottom: 15px; }
 </style>

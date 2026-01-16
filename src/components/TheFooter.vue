@@ -1,6 +1,6 @@
 <template>
   <footer class="site-footer">
-    <p>&copy; 2026 Neon City. Student Project for Mr. Galvonik, The Guru of web development.</p>
+    <p>&copy; 2026 Neon City. Student Project for Mr. Halvonik. The Guru of web development.</p>
     <div class="socials">
       <span>Instagram</span> | <span>Facebook</span>
     </div>
