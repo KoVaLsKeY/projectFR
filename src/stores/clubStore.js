@@ -13,8 +13,6 @@ export const useClubStore = defineStore('club', {
             { id: 1, title: 'Minecraft', description: 'Blocky world in reality.', age: '6+' },
             { id: 2, title: 'Wednesday', description: 'Mystical party style.', age: '8+' },
             { id: 3, title: 'TikTok', description: 'Record trends with us.', age: '10+' },
-
-            // Nové pridané témy (Roblox, Brawl Stars, atď.)
             { id: 4, title: 'Roblox', description: 'Create your own poblox rorn.', age: '6+' },
             { id: 5, title: 'BrawlStars', description: 'Collect gems and battle.', age: '7+' },
             { id: 6, title: 'Fortnite', description: 'Victory Royale dance battle.', age: '9+' },
