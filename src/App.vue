@@ -58,7 +58,9 @@ body {
 
 /* Štýlovanie hlavičky */
 header {
+  width: 100%;
   display: flex;
+  box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
@@ -110,6 +112,7 @@ nav a.router-link-active {
 
 /* Hlavný obsah zaberie zvyšok miesta */
 main {
+  width: 100%;
   flex: 1;
   padding-bottom: 40px;
 }

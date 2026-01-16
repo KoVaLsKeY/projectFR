@@ -172,12 +172,6 @@ export default {
   margin-bottom: 30px;
 }
 
-.preview-section {
-  padding: 60px 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
 .alternate-bg {
   background: rgba(255, 255, 255, 0.03);
   width: 100%;
@@ -189,6 +183,7 @@ export default {
 
 .alternate-bg .grid {
   max-width: 1000px;
+  margin: 0 auto;
   width: 100%;
 }
 
@@ -203,6 +198,17 @@ export default {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   margin-bottom: 30px;
+}
+.hero-section {
+  width: 100%;
+}
+
+.preview-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  box-sizing: border-box;
 }
 
 .center-btn {
