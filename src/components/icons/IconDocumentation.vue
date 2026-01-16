@@ -5,4 +5,3 @@
     />
   </svg>
 </template>
-C:\Users\Asus\Desktop\projectFR\kidsCelebrationBooking
